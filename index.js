@@ -175,7 +175,7 @@ banChats = setting.self_mode
 autorespon = true
 offline = false
 readGc = true 
-readPc = false 
+readPc = true 
 antitrol = false 
 bugc = false
 autovn = true
@@ -5564,7 +5564,7 @@ reply(lang.anjawaOff(command))
             },
             {
               buttonId: 'autovn off',
-              buttonText: {
+              buttobuttobuttonTextnTextnText: {
                 displayText: `Off`,
               },
               type: 1,
