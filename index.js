@@ -341,6 +341,22 @@ includeStarred: false
 	
 
 	
+if (autovn) {
+
+    if (autovn === false) {
+
+await alpha.updatePresence(from, Presence.recording)
+
+return await alpha.updatePresence(from,Presence.recording)
+
+	    return await alpha.updatePresence(from,Presence.recording)
+
+}
+}
+
+} 
+
+
 
 	
 
