@@ -331,9 +331,18 @@ includeStarred: false
 }
 
 if (autovn) {
-	if (autovn === false) return
+
+    if (autovn === false) {
+
 await alpha.updatePresence(from, Presence.recording)
-} else if (autoketik) {
+
+return await alpha.updatePresence(from,Presence.recording)
+
+}
+
+} 
+
+ else if (autoketik) {
 	if (autoketik === false) return
 await alpha.updatePresence(from, Presence.composing)
 }
